@@ -1,0 +1,71 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="title"><h1 id="title">Survey Form</h1></div><p id="description">Survey form for freeCodeCamp Responsive Web Design course certification</p>
+      <hr>
+      <section>
+        <form id="survey-form">
+          <div class="input"><label id="name-label" for="name">Enter your name: <input required id="name" type="text" placeholder="Your name" /></label></div>
+          <div class="input"><label id="email-label" for="email">Enter your email: <input required id="email" type="email" placeholder="Your email" /></label></div>
+          <div class="input"><label id="number-label" for="number">Enter your age: <input required id="number" type="number" placeholder="Your age" min="18" max="99" /></label></div>
+          <div class="input">Select one: <select required id="dropdown">
+            <option></option>
+            <option>Option A</option>
+            <option>Option B</option></div>
+          <div class="input"></select>
+          Radio A<input checked required value="1" type="radio" name="radio-a-b" />
+          Radio B<input required value="2" type="radio" name="radio-a-b"/>
+          Checkbox 1<input value="1" checked  type="checkbox"/>
+          Checkbox 2<input value="2"  type="checkbox"/></div>
+          <div class="input">
+          <legend>Comment below:</legend>
+          <textarea placeholder="Your comments here.." rows="5" cols="30"></textarea></div>
+          <div class="button"><button id="submit" type="submit">Submit</button></div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  margin: 0;
+  background-color: #656565;
+  color: black;
+  font-family: Tahoma;
+}
+
+h1, p {
+  margin: 0 auto;
+  text-align: center;
+  padding: 0.5em;
+}
+
+.input {
+  padding: 2em;
+  font-style: italic;
+}
+
+hr {
+  max-width: 500px;
+}
+
+textarea {
+  max-width: 500px;
+  min-width: 500px;
+}
+
+
+** end of undefined **
+
